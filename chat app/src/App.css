@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blank{
+
+color:green;
+}
+
+.nav-container {
+  border: 2px solid rgb(25, 24, 24);
+  display: flex;
+  align-items: center;
+}
+
+.nav-container li {
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(193, 189, 155);
+}
+
+.nav-container li a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-weight: 600;
+
+}
+
+form .txt {
+  position: relative;
+  margin: 8px 400px;
+}
+
+.txt label {
+  position: relative;
+  left: 5px;
+  font-size: 15px;
+  font-weight: 10px;
+}
+
+.txt input {
+  width: 80%;
+  padding: 0px 3px;
+  margin-left: 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid black;
+  outline: none;
+  color: #30505f;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  border: 1px solid #000;
+  background-color: rgb(112, 121, 247);
+  color:antiquewhite !important;
+  text-align: center;
+  padding: 0px;
+  width:100%;
+  margin-top:2px;
+  /* margin-left:48px;; */
+}
+.navbar p:hover {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color:black;
+ 
+  /* margin-left:48px;; */
+}
+.activePage{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color:black;  
+}
+
+
+.navbar p {
+  padding: 10px;
+  text-decoration: none;
+  border-right: 1px solid #000;
+  margin-left: auto;
+  width: 25%;
+  cursor: pointer;
+}
+
+.navbar p:last-child {
+  border-right: none;
+  /* Remove border from the last anchor */
+}
+.ttc{
+  color:#000;
+  text-align: center;
+}
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.success{
+  text-align: center;
+  margin-top: 30px;
+}
+.mod{
+  --bs-modal-width: 337px !important;
+}
+.btnn{
+  background-color: bisque;
+  color: black;
+  border:none;
+}
+.foot{
+  width: 90px;
+  border: 2px solid black
+}
+.foote{
+  /* margin-left: 58px; */
+  justify-content: center;
+
+}
+.modal-backdrop{
+  --bs-backdrop-bg:transparent !important;
+}
+.modal-content {
+  margin-top:100px !important;
+}
+.logi:hover{
+  background-color: #0d6efd !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+/* edit user css */
+
+.row {
+  display: flex;
+  justify-content: center;
+ /* margin-bottom: 10px; /* Adjust as needed */
+}
+
+.col-12 {
+  display:contents;
+  max-width: 70%;
+  padding: 0 15px;
+}
+
+label {
+  display: block;
+  font-size: 16px; /* Adjust as needed */
+  margin-top: 35px;
+  margin-right: 28px;
+  font-weight: 700;
+}
+
+
+.edituse{
+  width: 25%;
+  padding: 8px;
+  margin-top: 32px; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inp{
+  width: 25%;
+  padding: 8px;
+  margin-top: 32px; /* Adjust as needed */
+  font-size: 16px; /* Adjust as needed */
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* css for chatList */
+
+.groupSpace{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 200px; 
+}
+.messa{
+  width: 90%;
+}
+.bbtn{
+  border-radius: 15px;
+  width: 105px;
+  margin-right: 2px;
+}
+.bbtn:hover{
+  background-color:rgb(210, 209, 216);
+  text-align: center;
+  color:rgb(243, 238, 238);
+  border-radius: 15px;
+  width: 105px;
+  margin-right: 2px;
+}
